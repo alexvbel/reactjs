@@ -17,7 +17,8 @@ public class ReactjsSampleApplication {
     @Bean
     public CommandLineRunner databasePopulator() {
         return (args) -> {
-            tenderRepository.save(new Tender("Test tender", 200000));
+            tenderRepository.save(new Tender("First tender", 100000));
+            tenderRepository.save(new Tender("Second tender", 200000));
         };
     }
 

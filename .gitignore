@@ -3,6 +3,12 @@
 target/
 .idea/
 wrapper/
+.classpath
+.project
+.settings
+node/
+node_modules/
+built/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
