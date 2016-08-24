@@ -2,6 +2,12 @@ const React = require('react');
 const client = require('./client');
 const follow = require('./follow');
 
+var $ = require('jquery');
+global.jQuery = require("jquery");
+window.$ = $;
+var bootstrap = require('bootstrap');
+var bootbox = require('bootbox');
+
 const root = '/api';
 
 class App extends React.Component {
